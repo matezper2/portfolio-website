@@ -8,13 +8,48 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="about">
+
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Creative Web Developer</p>
+    </section>
+
+    <section id="about" class="about">
         <img src="img/profile.jpg" alt="Profile Picture">
         <h2>About Me</h2>
         <p>Hello! I am a web developer passionate about creating stunning websites.</p>
     </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>A cool web project with amazing features.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Another awesome project I built.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
     <footer>
         <p>© 2025 My Portfolio. All rights reserved.</p>
     </footer>
